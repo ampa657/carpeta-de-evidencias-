@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>formulario</title>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Mi empresa de servicio</h1>
+            <p>solicito una cotizacion para tu proximo proyecto</p>
+
+        </div>
+    </header>
+
+    <nav>
+        <a href="#precios">precio</a>
+        <a href="#formulario">fomulario</a>
+        <a href="#conctacto">contacto</a>
+
+    </nav>
+    <div class="container">
+        <main>
+            <section id="precios">
+                <h2>tabla de precios</h2>
+                <table>
+                    <tr>
+                        <th>servicio</th>
+                        <th>descripcion</th>
+                        <th>precio</th>
+                    </tr>
+                    <tr>
+                        <td>diseño web</td>
+                        <td>diseño profesional para sitio web</td>
+                        <td>100000</td>
+                    </tr>
+                    <tr>
+                        <td>mantenimiento de computadores</td>
+                        <td>analis , limpieza y solucion a problemas internos</td>
+                        <td>100000</td>
+                    </tr>
+                    <tr>
+                        <td>instalacion de programas</td>
+                        <td>instalacion de antivirus y demas programas necesarios </td>
+                        <td>80000</td>
+                    </tr>
+
+                </table>
+
+            </section>
+            <section id="formulario">
+                <h2>formulario de cotizacion</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Informacion personal </legend>
+                        <label for="nombre">nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="apellido">apellido</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                        <label for="mail">correo electronico</label>
+                        <input type="email" id="mail" name="mail" required>
+                        <label for="fecha">fecha</label>
+                        <input type="date" id="fecha" name="fecha" required>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Informacion ubicacion</legend>
+                        <label for="departamento ">departamento</label>
+                        <select name="departamento" id="departamento">seleccione el departamento
+                           <option value="amazonas"></option>
+                            <option value="amazonas">amazonas</option>
+                           <option value="antioquia">antioquia</option>
+                           <option value="tolima">tolima</option>
+                           <option value="nariño">nariño</option>
+                           <option value="cundinamarca">cundinamarca</option>
+                           <option value="valle del cauca">valle del cauca</option>
+                        </select>
+                         <label for="ciudad ">ciudad</label>
+                        <select name="ciudad" id="ciudad">seleccione el departamento
+                           <option value="leticia"></option>
+                            <option value="leticia">leticia</option>
+                           <option value="medellin">medellin</option>
+                           <option value="ibague">ibague</option>
+                           <option value="pasto">pasto</option>
+                           <option value="bogota">bogota</option>
+                           <option value="cali">cali</option>
+                        </select>
+                         
+                        
+                        <label for="direccion">direccion</label>
+                        <input type="text" id="direccion" name="direccion" required>
+
+                        
+
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Detalles del servicio</legend>
+                        <label for="servicio">servicio</label>
+                        <select name="servcio" id="servcio" required>
+                            <option value="diseño web"></option>
+                            <option value="diseño web">diseño web</option>
+                           <option value="mantenimiento de computadores">mantenimiento de computadores</option>
+                           <option value="instalacion de programas">instalacion de programas</option>
+                           
+
+
+                        </select>
+                        <label for="descripcion">descripcion</label>
+                        <textarea name="descripcion" id="descripcion" rows="5"></textarea>
+
+
+
+                    </fieldset>
+                    <button type="submit">enviar</button>
+
+                </form >
+
+            </section>
+        </main>
+        <aside>
+            <h2>nuestro servicios</h2>
+            <div class="card">
+                <img src="img/computer-maint.jpg" alt="">
+                <div class="card-content">
+                    <h3>diseño web</h3>
+                    <p>diseño profesional con estilo</p>
+
+                
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/diseno-web-scaled.jpg" alt="">
+                <div class="card-content">
+                    <h3>analisis</h3>
+                    <p>analisis de cada uno de los componentes internos y externos de la pc</p>
+
+                
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/mantenimiento-preventivo-de-computadores-ID-02-1024x512.webp" alt="">
+                <div class="card-content">
+                    <h3>mantenimiento </h3>
+                    <p>mantenimineto preativo y preditivo de las pc</p>
+
+                
+                </div>
+            </div>
+                
+
+
+        </aside>
+
+
+    </div>
+    <footer>
+        <div class="footer-content"> 
+            <div class="footer-section">
+                <h4>sobre nosotros</h4>
+                <p>somos una empresa dedicada a la creacion de sitios web y desarrollo de software</p>
+
+            </div>
+            <div class="footer-section">
+                <h4>contacto</h4>
+                <p>email: andrespat1003@gmail.com</p>
+                <p>telefono : 31435134552</p>
+
+            </div>
+            <div class="footer-bottom">
+                <p>2025 mi empresa de servicio. todos los derechos reservador
+
+    
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
